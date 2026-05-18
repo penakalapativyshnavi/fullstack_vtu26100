@@ -1,0 +1,20 @@
+# ── Backend ──
+backend/target/
+backend/.mvn/
+backend/*.log
+backend/src/main/resources/application-local.properties
+
+# ── Frontend ──
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# ── IDE ──
+.vscode/settings.json
+.idea/
+*.iml
+*.class
+
+# ── OS ──
+.DS_Store
+Thumbs.db
